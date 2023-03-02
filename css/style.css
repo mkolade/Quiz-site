@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #007bff;
+    font-family: verdana;
+    height: auto;
+    align-items: center;
+}
+#new-user{
+   
+    background: white;
+    padding: 20px 40px;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+#login-user{
+   
+    background: white;
+    padding: 30px 40px;
+    max-width: 350px;
+    margin: 0 auto;
+    margin-top: 7%;
+}
+h1{
+    color: #555;
+}
+label,input{
+    display: block;
+    margin: 18px 0px;
+}
+label{
+    color: #777;
+}
+input[type='text'],input[type='email'],input[type='password']{
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+}
+input[type='submit']{
+    margin: 24px auto;
+    font-size: 18px;
+    color: coral;
+    padding: 6px 16px;
+    border: 2px solid coral;
+    border-radius: 10px;
+    font-weight: 700;
+    background: white;
+    transition: 0.5s ease-in-out;
+}
+
+input[type='submit']:hover{
+    background: coral;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+#error{
+    margin-top: 0;
+    color: red;
+    background: white;
+}
+
+#success{
+    margin-top: 0;
+    color: green;
+    background: white;
+}
+#login{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+#login a{
+    color: white;
+    border: 2px solid white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: 700;
+    margin-left:30px;
+    transition: 0.5s ease-in-out;
+}
+
+#login a:hover{
+    color: blue;
+    background: white;
+    transition: 0.5s ease-in-out;
+}
+
+#register{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+#register a{
+    color:white;
+    border: 2px solid white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: 700;
+    margin-left:30px;
+    transition: 0.5s ease-in-out;
+}
+
+#register a:hover{
+    color: blue;
+    background:white;
+    transition: 0.5s ease-in-out;
+}
+
+#home h1{
+    color: white;
+}
